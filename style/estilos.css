@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: #edcb54;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    align-items: center;
+}
+.navbar a:hover{
+    color: rgba(68, 65, 65, 0.657);
+}
+.logo{
+    width: 150px;
+    height: 125px;
+    border-radius: 50%;
+    padding: 5px;
+    grid-column: 1/2;
+}
+
+.menu{
+    grid-column: 2/9;
+    display: flex;
+    justify-content: space-around;
+
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #181818;
+    cursor: pointer;
+    font-weight: 900;
+}
+.menu-bar{
+    display: none;
+}
+/* Section main  */
+
+.hero{
+    height: 80vh;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.37), rgba(34, 34, 36, 0.322)), url(../img/luke-peters-B6JINerWMz0-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 890px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+.info-content{
+    grid-column: 4/10;
+    grid-row: 2;
+    margin-top: -35px;
+    
+}
+
+.hero h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    color: #edcb54;
+    font-weight:600;
+    text-shadow: 0.1em 0.1em #333
+}
+
+.hero h3{
+   margin-top:10px;
+   color: white;
+   font-size:1.5em;
+   
+}
+
+.hero .btn{
+    font-size: 1em;
+    background: none;
+    color: #fff;
+    padding: 10px 20px ;
+    border: 1px solid #edcb54;
+    border-radius: 30px;
+    
+}
+
+.hero .btn:hover{
+    background-color:#edcb54;
+    color: #181818;
+    cursor: pointer;
+  
+}
+
+/* section footer*/
+.footer{
+    display: grid;
+    height: 80px;
+    align-items: center;
+    background-color: #181818;
+    color: #fff;
+    grid-template-columns: repeat(10,1fr);
+  
+    
+}
+.follow-me{
+    grid-column:6;
+    justify-content: space-around;
+}
+.fab{
+    font-size: 2.5em;
+    color: #edcb54;
+    
+}
+.fas{
+    font-size: 1.5em;
+    padding: 10px 10px;
+}
+
+.angle-left{
+    font-size:1em;
+}
+
+.angle-left .fas{
+    color: white;
+}
+
+.angle-left .fas:hover{
+    color:#edcb54 ;
+}
+
+.angle-right{
+    display: grid;
+    grid-column: 10;
+    margin-left: 50px;
+  
+   
+}
+
+.angle-right .fas{
+    color: white;
+} 
+
+.angle-right .fas:hover{
+   color: #edcb54;
+}

@@ -1,0 +1,106 @@
+@media only screen and (max-width: 600px){
+
+    .navbar{
+        position:relative;
+    }
+    .menu-bar{
+        display: block;
+        grid-column: 8/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+  
+    .menu{
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: #edcb54;
+        margin-top: 40em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }   
+    
+    .menu-toggle{
+        transform: translateX(30%);
+    }
+
+
+    /* section main */
+    .info-content h3{
+        color: #fff;
+    }
+    .logo{
+        padding: 5px;
+    }
+    .follow-me{
+        display: flex;
+    }
+    .follow-me h2{
+        justify-content: space-around;
+    }
+
+
+    /* Section Log in */
+@media only screen and (max-width: 513px) {
+    .login{
+     margin-left: 100px;
+   }
+}
+
+@media only screen and (max-width:591px) {
+    .login{
+     margin-left: 100px;
+   }
+}
+
+@media only screen and (max-width: 460px) {
+    .login{
+     margin-left: 30px;
+   }
+}
+
+@media only screen and (max-width: 386px) {
+    .login{
+     margin-left: 4px;
+   }
+}
+
+@media only screen and (max-width: 574px){
+    .info-content{
+    grid-column: 3/10;
+    grid-row: 3;
+    margin-top: -35px;
+    }
+ }
+
+ @media only screen and (max-width: 506px){
+    .info-content{
+        grid-column: 2/10;
+        grid-row: 3;
+        margin-top: -35px;
+ }
+}
+@media only screen and (max-width: 448px){
+    .info-content{
+        grid-column: 2/10;
+        grid-row: 3;
+        margin-top: -35px;    
+ }
+}
+}
+
+/*section Register por trabajar*/
+
+@media only screen and (max-width: 670px) {
+    .login__register{
+     margin-right: 1000px;
+   }
+}
+
+@media only screen and (max-width: 501px) {
+    .login__register{
+     margin-left: 100px;
+   }
+}
